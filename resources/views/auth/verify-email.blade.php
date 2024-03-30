@@ -1,7 +1,8 @@
 <x-guest-layout>
     <x-authentication-card>
         <x-slot name="logo">
-            <x-authentication-card-logo />
+            <!-- <x-authentication-card-logo /> -->
+            <img src="{{ asset('image/logo.png') }}" alt="Aussie Garments Club 99 Logo" class="h-16">
         </x-slot>
 
         <div class="mb-4 text-sm text-gray-600">
